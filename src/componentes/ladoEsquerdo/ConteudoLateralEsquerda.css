@@ -1,0 +1,60 @@
+.conteudoLateralEsquerda{
+    height: 100vh;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+}
+.contentEsquerda{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em 0;
+    list-style: none;
+    padding: 0 0.5em;
+
+}
+.containerLogo{
+    width: 100%;
+    height: 10%;
+    padding: 0.5em 0; 
+    display: flex;
+    margin: 0 1em ;
+    justify-content: start;
+}
+
+.containerLogo img{
+    width: 50%;
+    height: 60%;
+}
+
+.contentMenu{
+    margin: 0;
+    text-align: start;
+    height: 75%;
+    width: 100%;
+}
+.contentMenu li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.text-menu{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.configContainer{
+    height: 15%;
+    width: 100%;
+}
+
+.configContainer li{
+    height: 50%;   
+    width: 100%;
+}

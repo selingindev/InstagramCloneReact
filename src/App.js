@@ -1,19 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Esquerda from '../src/componentes/ladoEsquerdo/ConteudoLateralEsquerda';
-// JSX 
-
+import Central from '../src/componentes/centro/ConteudoCentral'
 function App() {
   return (
     <>
       <Esquerda />
+ 
+     <Central/>
 
-      <div className='conteudoCentral'>
-        {/* 
-          Stories
-          Feed de posts
-        */}
-      </div>
       
       <div className='conteudoLateralDireita'>
         {/* 

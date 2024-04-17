@@ -1,12 +1,40 @@
 .ConteudoLateralDireita{
     width: 30%;
+    margin: 0 0 0 1rem; 
 }
 
 .containerContentDireita{
-    width: 65%;
+    width: 70%;
     height: 70%;
     margin: 0 1rem;
     padding: 1rem;
     flex-wrap: wrap;
     color: grey;
+}
+
+.topSide{
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topSide p{
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.topSide button, .bottomSide button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 0.7rem;
+    display: flex;
+}
+
+.bottomSide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

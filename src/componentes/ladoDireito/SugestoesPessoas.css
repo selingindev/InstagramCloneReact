@@ -2,18 +2,7 @@
    height: 70%;
    width: 100%;
 }
-.topSide{
+.containerButton{
     display: flex;
-    padding: 0.5rem;
-    justify-content: space-between;
-}
-
-.topSide p{
-    font-size: 0.7rem;
-}
-.topSide button{
-    border: none;
-    background: none;
-    cursor: pointer;
-    font-size: 0.6rem;
+    align-items: center;
 }

@@ -1,12 +1,17 @@
 
-import './Post.css'
-
-function Post() {
+export default function Post(props) {
   return (
-    <div className='post'>
-        a
-    </div>
+      <div className="card post">
+          <div className="card-header">
+              <h3>{props.title}</h3>
+          </div>
+          <div className="card-body">
+              <img src={props.imgSrc} />
+              <p>{props.body}</p>
+          </div>
+          <div className="card-footer">
+              
+          </div>
+      </div>
   )
 }
-
-export default Post

@@ -1,0 +1,12 @@
+.ConteudoLateralDireita{
+    width: 30%;
+}
+
+.containerContentDireita{
+    width: 65%;
+    height: 70%;
+    margin: 0 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    color: grey;
+}

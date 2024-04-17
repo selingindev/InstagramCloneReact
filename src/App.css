@@ -29,11 +29,10 @@ body {
 }
 
 .conteudoLateralDireita {
-  background: blue;
   width:30%;
 }
 
 .conteudoCentral {
-  width:55%;
+  width:50%;
 
 }

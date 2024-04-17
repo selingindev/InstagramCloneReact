@@ -32,11 +32,11 @@
 .contentMenu{
     margin: 0;
     text-align: start;
-    height: 75%;
+    height: 70%;
     width: 100%;
 }
 .contentMenu li{
-    height: 55px;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: start;

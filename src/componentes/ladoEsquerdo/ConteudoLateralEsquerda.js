@@ -21,64 +21,64 @@ export default function ConteudoLateralEsquerda() {
                 </div>
                 <ul className='contentMenu'>
                     <Menu icone={<GoHomeFill
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />}nome="Página inicial" classe ='text-menu'/>
 
                     <Menu  icone={<CiSearch
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />} nome="Pesquisa"  classe ='text-menu' />
 
                     <Menu  icone={<FaRegCompass 
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />} nome="Explorar"  classe ='text-menu' />
 
                     <Menu  icone={<PiVideoFill
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />} nome="Reels"  classe ='text-menu'/>
                     
                     <Menu  icone={<RiMessengerLine
-                    style={{width: '25px',
-                    height: '25px', 
+                    style={{width: '20px',
+                    height: '20px', 
                     margin:' 0 1em',                     
                     }} />} nome="Mensagens"  classe ='text-menu'/>
 
                     <Menu icone={< CiHeart
-                    style={{width:'25px',
-                    height: '25px',
+                    style={{width:'20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />} nome="Notificações"  classe ='text-menu'/>
                     
                     <Menu icone={<CgAddR
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />} nome="Criar"  classe ='text-menu'/>
 
                     <Menu icone={<FaUserCircle
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     }} />}  nome="Profile"  classe ='text-menu'/>  
                 </ul>
 
                 <div className='configContainer'>
                     <Menu  icone={<FaThreads 
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0  1em',   
                     }} />}  nome="Threads"  classe ='text-menu'/> 
 
                     <Menu  icone={<AiOutlineMenu 
-                    style={{width: '25px',
-                    height: '25px',
+                    style={{width: '20px',
+                    height: '20px',
                     margin:' 0 1em',   
                     
                     }} />}  nome="Mais"  classe ='text-menu'/>                

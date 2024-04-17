@@ -1,10 +1,12 @@
 
-
 import './Stories.css'
-function Stories() {
+function Stories(props) {
   return (
-    <div className='stories'>
-        a
+    <div className='Stories'>
+      <div className='borderStories'>
+        <img src={props.fotoStorie}/>
+      </div>
+        <h2>{props.nomeStorie}</h2>  
     </div>
   )
 }

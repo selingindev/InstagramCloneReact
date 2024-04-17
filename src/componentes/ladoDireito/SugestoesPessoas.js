@@ -10,7 +10,7 @@ function SugestoesPessoas(props) {
                   <img src={props.imgPerfil}/>
               </div>
               <div className='containerNome'>
-                <h3>{props.nome}</h3>
+                <h3>{props.nome}</h3>   
                 <h4>{props.acao}</h4>
               </div>
               <div className='containerButton'>

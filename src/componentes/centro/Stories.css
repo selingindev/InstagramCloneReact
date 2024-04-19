@@ -12,18 +12,18 @@
 
 .borderStories{
     width: 100%;
-    height: 90%;
-    padding: 0.1em;
-    border-radius: 50%;
+    height: 100%;
+    padding: 0.2em;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     background: linear-gradient(to right, yellow, purple, red, orange);
 
 }
 .borderStories img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
 }
 
 .Stories h2{

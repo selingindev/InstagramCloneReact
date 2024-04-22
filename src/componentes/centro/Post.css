@@ -1,5 +1,43 @@
-.post{
+.cardPost{
     border: 1px solid black;
     height: 100%;
-    width: 60%;
+    width: 65%;
+    margin: 0 auto;
 }
+
+.cardHeader{
+height: 40PX;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.leftHeaderPost{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.containerFotoUser{
+    margin: 0 0.2rem 0 0.4rem;
+    width: 2.5rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerFotoUser img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+.containerUser h3{
+    font-size: 0.7rem;
+}
+.rightHeaderPost{
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    margin: 0 0.5rem;
+}
+

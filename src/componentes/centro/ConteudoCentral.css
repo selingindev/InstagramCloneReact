@@ -8,9 +8,10 @@
     width: 80%;
     height: 15vh;
     margin: 0 auto;
-    padding: 0.7rem;
+    padding: 0.2rem;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .containerPost{

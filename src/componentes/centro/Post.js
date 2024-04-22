@@ -1,17 +1,22 @@
+import  './Post.css'
+import { AiOutlineEllipsis } from "react-icons/ai";
+
 export default function Post(props) {
   return (
       <div className="cardPost">
           <div className="cardHeader">
-            <div className="leftHeaderFoto"> 
-                <div className="containerFoto">
+            <div className="leftHeaderPost"> 
+                <div className="containerFotoUser">
                     <img src={props.fotoUser} alt="Foto do usúario na postagem"/>
                 </div>      
                 <div className="containerUser">
                     <h3>{props.title}</h3>
                 </div>
              </div>
-             <div className="rightHeaderFoto">
-
+             <div className="rightHeaderPost">
+             <AiOutlineEllipsis style={{width: '25px',
+                    height: '25px',  
+                    }} />
              </div>
           </div>
           <div className="cardBody">

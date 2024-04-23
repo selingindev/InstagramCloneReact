@@ -8,6 +8,7 @@ import Storie4 from "../../imagens/Captura de tela_20230404_004053.png"
 import Storie5 from '../../imagens/chorao.JPG'
 import Storie6 from '../../imagens/Captura de tela_20230705_203658.png'
 import Storie7 from '../../imagens/macacoSkatista.jpg'
+import PostFoto from '../../imagens/WhatsApp Image 2024-04-22 at 20.21.01.jpeg'
 function ConteudoCentral () {
   return (
     <div className="conteudoCentral">
@@ -29,7 +30,7 @@ function ConteudoCentral () {
             nomeStorie = 'monkeySK8'/>    
         </div>
         <div className="containerPost">   
-            <Post fotoUser={Storie1} title='Fallen'/>
+            <Post fotoUser={Storie1} title='Fallen •' imgPostagem={PostFoto} />
         </div>
     </div>
   )

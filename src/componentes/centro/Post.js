@@ -11,11 +11,13 @@ import Pessoa2 from './../../imagens/macacoSkatista.jpg'
 import Pessoa3 from '../../imagens/perfilJojo.png'
 import { HiCheckBadge } from "react-icons/hi2";
 import Perfil from './../../imagens/perfil.jpg' 
-
-
+import React, { useState } from 'react';
+import './Curtidas.css'
 
 
 export default function Post(props) {
+ 
+
   return (
       <div className="cardPost">
           <div className="cardHeader">
@@ -41,9 +43,10 @@ export default function Post(props) {
             <div className="interacoesPostagem">
                 <div className="containerButtons">
                     <div className="leftButtons">
-                        <FaRegHeart style={{
+                        <FaRegHeart onClick={changeColor}  style={{
                             width:'20px',
-                            height:'20px'
+                            height:'20px',
+                            color: color,
                         }} />
               
                         <FaRegComment style={{

@@ -2,6 +2,7 @@
     height: 100vh;
     margin: auto 0;
     display: flex;
+    position: fixed;
     align-items: start;
     border-right: 1px solid rgba(0, 0, 0, 0.236)  ;
 }
@@ -18,15 +19,14 @@
 }
 .containerLogo{
     width: 80%;
-    height: 10%;
-    padding: 0.5em 0; 
+    height: 10%;    
     display: flex;
-    justify-content: center;
 }
 
 .containerLogo img{
-    width: 80%;
+    width: 60%;
     height: 60%;
+    margin-left: 0.8rem;
 }
 
 .contentMenu{

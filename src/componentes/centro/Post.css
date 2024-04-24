@@ -1,7 +1,8 @@
 .cardPost{
-    height: 100%;
+    height: auto;
     width: 55%;
     margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 .cardHeader{
@@ -13,7 +14,7 @@ margin-bottom: 0.4rem;
 }
 
 .leftHeaderPost{
-    width: 50%;
+    width: 70%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -90,9 +91,53 @@ margin-bottom: 0.4rem;
 }
 .curtidoInfo p{
     margin-left: 25px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .curtidoInfo span{
     cursor: pointer;
     font-weight: 700;
+}
+.card-footer{
+}
+.descPostagem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 0.7rem;
+    margin: 0.2rem 0;
+}
+.comentarioUser{
+    display: flex;
+    width: auto;
+    margin-right: 0.3rem;
+    justify-content: start;
+    align-items: center;
+}
+.todosComentarios{
+    margin: 0.3rem 0;
+    font-size: 0.7rem;
+    color: gray;
+}
+.seuComentario{
+    align-items: center;
+    padding: 0.2rem 0;
+    font-size: 0.7rem;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.488);
+    margin: 0.5rem 0;
+    justify-content: space-between;
+}
+.comentario{
+    display: flex;
+    align-items: center;
+}
+.comentarioFoto img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.digiteAqui{
+    margin-left: 0.4rem;
+    color: gray;
 }

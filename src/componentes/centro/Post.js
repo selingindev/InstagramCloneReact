@@ -4,10 +4,16 @@ import { FaRegComment } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
 import { FaRegPaperPlane } from "react-icons/fa6";
 import { FaRegBookmark } from "react-icons/fa";
+import { MdOutlineEmojiEmotions } from "react-icons/md";
 import Curtidas from './Curtidas';
 import Pessoa1 from './../../imagens/perfilCorinthians.jpg'
 import Pessoa2 from './../../imagens/macacoSkatista.jpg'
 import Pessoa3 from '../../imagens/perfilJojo.png'
+import { HiCheckBadge } from "react-icons/hi2";
+import Perfil from './../../imagens/perfil.jpg' 
+
+
+
 
 export default function Post(props) {
   return (
@@ -39,12 +45,13 @@ export default function Post(props) {
                             width:'20px',
                             height:'20px'
                         }} />
-                        <div className='reverse'>
+              
                         <FaRegComment style={{
                             width:'20px',
-                            height:'20px'
+                            height:'20px',
+                            transform: 'scaleX(-1)'
                         }} />
-                        </div>
+     
                         <FaRegPaperPlane style={{
                             width:'20px',
                             height:'20px'
@@ -70,23 +77,36 @@ export default function Post(props) {
           </div>
           <div className="card-footer">
             <div className="descPostagem">
-                <h4>{}</h4>
-                <p>{}</p>
+                <div className='comentarioUser'>
+                <h4>{props.titledown}</h4>
+                <HiCheckBadge 
+                style={{
+                    color: '#0093F3'
+                }}/> 
+                </div>
+                <p>{props.titlepostagem}</p>
             </div>
             <div className="comentarios">
                 <div className="todosComentarios">
-                    <p>{}</p>
+                    <p>Ver todos os 402 comentários</p>
                 </div>
                 <div className="seuComentario">
+                    <div className='comentario'>
                     <div className="comentarioFoto">
-                        <img src=''></img>
+                        <img src={Perfil}></img>
                     </div>
                     <div className="digiteAqui">
-                        <p></p>
+                        <p>Adicionar Comentário</p>
                     </div>
                 <div/>
-                <div className="horarioPost">
-                    <p></p>
+                </div>
+                 <div className='emojis'>
+                    <MdOutlineEmojiEmotions
+                    style={{
+                        width: '15px',
+                        height: '15px'
+                    }}
+                    />
                 </div>
             </div>
           </div>

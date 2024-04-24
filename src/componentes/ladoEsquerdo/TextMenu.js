@@ -2,7 +2,7 @@ export default function TextMenu(props) {
   return (
     <li className={props.classe}>
         {props.icone}
-        {props.nome}
+       <p> {props.nome}</p>
     </li>
   );
 }

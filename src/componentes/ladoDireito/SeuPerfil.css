@@ -64,3 +64,10 @@
     font-size: 0.7rem;
     display: flex;
 }
+
+
+@media screen and (max-width: 1300px) {
+    .containerImg img{
+        height: 70%;
+    }
+}

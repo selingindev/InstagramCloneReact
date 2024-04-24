@@ -141,3 +141,23 @@ margin-bottom: 0.4rem;
     margin-left: 0.4rem;
     color: gray;
 }
+
+@media screen and (max-width: 600px) {
+    .cardPost{
+        width: 100%;
+        padding: 0rem;
+       }
+       .cardHeader{
+        padding: 0 1rem;
+       }
+       .containerFoto img{
+        margin: 0.1rem;
+       }
+       .interacoesPostagem{
+        margin: 0 0.5rem;
+       }
+       .card-footer{
+        margin: 0 0.5rem;
+        
+       }
+}

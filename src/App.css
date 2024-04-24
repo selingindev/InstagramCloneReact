@@ -13,7 +13,7 @@ body {
 #root {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: auto;
 }
 
 .conteudoLateralDireita,
@@ -38,4 +38,16 @@ body {
 .conteudoCentral {
   width:50%;
 
+}
+
+@media screen and (max-width: 600px) {
+ .conteudoLateralEsquerda{
+  z-index: 1;
+  top: 94%;
+  margin: 0;
+  width: 100%;
+  height: 30px;
+  display: flex;
+ }   
+ 
 }

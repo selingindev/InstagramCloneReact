@@ -43,10 +43,10 @@ export default function Post(props) {
             <div className="interacoesPostagem">
                 <div className="containerButtons">
                     <div className="leftButtons">
-                        <FaRegHeart onClick={changeColor}  style={{
+                        <FaRegHeart   style={{
                             width:'20px',
                             height:'20px',
-                            color: color,
+                            
                         }} />
               
                         <FaRegComment style={{

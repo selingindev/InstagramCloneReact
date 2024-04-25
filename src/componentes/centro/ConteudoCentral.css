@@ -37,7 +37,13 @@
         width: 100%;
        }
     .containerPost{
+        overflow-x: hidden;
         padding: 0rem;
         margin: 0.5rem 0;
     }
+       .containerStories{
+             margin-top: 40px;
+            width: 100%;
+            overflow-x: hidden;
+        }
 }

@@ -17,7 +17,7 @@ import './Curtidas.css'
 
 export default function Post(props) {
  
-
+    const [likes, setLikes] = useState(0)
   return (
       <div className="cardPost">
           <div className="cardHeader">
@@ -43,9 +43,11 @@ export default function Post(props) {
             <div className="interacoesPostagem">
                 <div className="containerButtons">
                     <div className="leftButtons">
-                        <FaRegHeart   style={{
+                        <FaRegHeart  onClick={()=> setLikes(likes+1)}  style={{
+                            color: likes % 2 === 0 ? '' : 'red',  
                             width:'20px',
                             height:'20px',
+                            transition:'0.5ms'
                             
                         }} />
               

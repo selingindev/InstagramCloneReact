@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-
 }
 
 body {
@@ -14,6 +13,7 @@ body {
   display: flex;
   flex-direction: row;
   height: auto;
+
 }
 
 .conteudoLateralDireita,

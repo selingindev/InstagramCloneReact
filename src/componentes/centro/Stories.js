@@ -3,6 +3,7 @@ import './Stories.css'
 function Stories(props) {
   return (
     <div className='Stories'>
+
       <div className='borderStories'>
         <img src={props.fotoStorie}/>
       </div>

@@ -123,6 +123,9 @@ display: none;
         display: block;
         text-align: center;
     }
+    .contentMenu{
+        align-items: center;
+    }
     .mobileMenu{
         justify-content: center;
         width: 100%;
